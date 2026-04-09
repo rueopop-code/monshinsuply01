@@ -1,7 +1,0 @@
-CREATE TABLE products (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    item_name VARCHAR(255) NOT NULL,
-    item_price DECIMAL(10,2) DEFAULT 0.00,
-    image_path VARCHAR(255) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
